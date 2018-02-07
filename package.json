@@ -1,11 +1,10 @@
 {
   "name": "protobufjs-static-reflector",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Runtime reflection tools for pbjs static-module output.",
   "scripts": {
     "dev": "npm run build-proto && NODE_ENV=development nodemon src/server/index.ts",
     "build": "tsc",
-    "postinstall": "tsc",
     "publish": "npm run build"
   },
   "author": "Joshua Cole",
