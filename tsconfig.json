@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"],
+    "declaration": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+
+    "lib": ["es2015"],
+    "module": "commonjs",
+    "target": "es5"
+  },
+  "include": ["./*.ts"],
+  "exclude": ["node_modules"]
+}
